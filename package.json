@@ -1,0 +1,34 @@
+{
+  "name": "seatales1",
+  "version": "1.0.0",
+  "description": "Initial setup of the projecte created with Express.js",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indigomx9/seatales1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indigomx9/seatales1/issues"
+  },
+  "homepage": "https://github.com/indigomx9/seatales1#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
+
+
