@@ -1,6 +1,57 @@
-body {
-    background-color: steelblue;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@200;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+}
+
+a {
+    background-color: #9d5cd1;
+    text-decoration: none;
+    color: #fff;
+    border-radius: .25rem;
+    display: inline-block;
+    padding: .1em .4em;
+    margin-left: .5em;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: auto;
+}
+
+/* HEADER */
+.hero {
+    background: linear-gradient(#3ab6bf5e, #1a5271c7), 
+        url("../img//hero.jpg") no-repeat top right;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px #1a5271;
+    margin-right: 30px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    font-weight: 200;
+    text-shadow: 2px 2px 5px #1a5271;
+}
+
+.hero a {
+    font-size: 1rem;
+}
+
+/* STORIES */
 
 
 
